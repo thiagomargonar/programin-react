@@ -2,12 +2,12 @@
 Curso de programação reativa com exemplos e comentários em português.
 
 <h2>O que é programação reativa?</h2>
-<p>Basicamente, quando falamos em programação reativa,
+<p>Quando falamos em programação reativa,
 estamos falando basicamente de um conceito que através dele podemos 
 ter comportamentos no nosso sistema capaz de lidar com eventos de forma
 assíncrona.
-Este conceito basicamente estende as características do pattern Observer
-e tem como característica 4 pilares escritos no "manifesto reativo", 
+Este conceito estende as características do pattern Observer
+e tem como ponto focal 4 pilares escritos no "manifesto reativo", 
 sendo eles: </p>
     <ul>
         <li><h3><b>Responsivos</b></h3></li>
