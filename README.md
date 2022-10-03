@@ -24,7 +24,7 @@ sendo eles: </p>
     <ul>
         <li><h3><b>Elástico(escalável)</b></h3></li>
         <p>A elasticidade tem por usa vez a responsabilidade de escalar a aplicação quando existe variações 
-        de carga, sendo capaz de se alto organizar conforme sua necessidade, fazendo assim que não
+        de carga, sendo capaz de se auto organizar conforme sua necessidade, fazendo assim que não
         haja nenhum "funil" para a aplicação ter "gargalos".</p> 
     </ul>
     <ul>
