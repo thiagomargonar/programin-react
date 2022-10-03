@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 import org.reactivestreams.Subscriber;
 import org.reactivestreams.Subscription;
 import reactor.core.publisher.BaseSubscriber;
-import reactor.core.publisher.ConnectableFlux;
 import reactor.core.publisher.Flux;
 import reactor.test.StepVerifier;
 
@@ -118,7 +117,7 @@ class FluxTest {
         fluxInt.subscribe(integer -> System.out.println(integer));
 
         StepVerifier.create(fluxInt)
-                .expectNext(1, 2, 3, 4, 5,6,7,8,9,10)
+                .expectNext(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
                 .verifyComplete();
     }
 
@@ -128,8 +127,8 @@ class FluxTest {
         Flux<Integer> flux = Flux.range(1, 10).log();
         flux.subscribe(new BaseSubscriber<Integer>() {
 
-            int requestCount=2;
-            int count=0;
+            int requestCount = 2;
+            int count = 0;
 
             @Override
             protected void hookOnSubscribe(Subscription subscription) {
